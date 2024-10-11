@@ -2,7 +2,7 @@
 # Use the official Node.js image.
 FROM node:14
 
-# Create and set the working directory
+# Create and set the working directory.
 WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json
