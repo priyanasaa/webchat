@@ -4,7 +4,7 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "install-and-test": "npm install socket.io-client && npm test", // New script
+        "install-and-test": "npm install socket.io-client && npm test",
         "test": "jest"
     },
     "dependencies": {
@@ -14,6 +14,6 @@
     "devDependencies": {
         "jest": "^27.0.0",
         "supertest": "^6.0.0",
-        "socket.io-client": "^4.0.0" // Add socket.io-client as a devDependency
+        "socket.io-client": "^4.0.0"
     }
 }
